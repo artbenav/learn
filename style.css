@@ -1,1 +1,41 @@
-
+body {
+    background-color: brown;
+}
+header {
+    grid-area: header;
+    color:black;
+    padding: 10px;
+    font-family: 'times new roman';
+    font-size: 200%;
+    text-align: center;
+    background-image: url('./bridge.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  nav {
+    grid-area: nav;
+    background-color: #2d2f77;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  nav ul li {
+    padding: 10px;
+  }
